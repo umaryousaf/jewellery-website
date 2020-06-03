@@ -1,0 +1,324 @@
+.navbar{
+    background-color: #0073AA !important;
+}
+
+nav img{
+    margin-left: 20px;
+}
+
+nav ul{
+    margin-left: 700px;
+}
+
+nav ul li .dropdown-menu a{
+    color: black !important;
+}
+
+nav ul li a{
+    color: white !important;
+}
+
+.slide{
+    background-image: url(images/banner.jpg);
+    width: 100%;   
+    color: white;
+    padding: 50px 50px 50px 50px; 
+    margin-bottom: 50px;
+}
+
+.slide h1{
+    font-size: 70px;
+}
+
+.slide span{
+    font-size: 70px;
+    font-weight: 100;
+}
+
+.discount{
+    font-weight: 300;
+}
+
+.slide .p{
+    margin-top: 50px;
+}
+
+.factory{
+    text-align: center;
+    color: #282C35;
+    margin-top: 30px;
+}
+.factory img{
+    padding-bottom: 10px;
+}
+
+.about{
+    
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.about .row{
+    margin-top:5%;
+}
+
+.about img{
+    border-radius: 100px; 
+}
+
+.about h1{
+    margin-top: 20px;
+}
+
+.about a{
+    padding-left: 10px;
+    font-size: 20px; 
+}
+.banner img{
+    opacity: 0.3;
+}
+
+.h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#form{
+    background-color: #E8F4F7;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.service-1{
+    text-align: center;
+    color: #282C35;
+    margin-top: 30px;
+}
+
+.service{
+    margin-bottom: 30px;
+}
+
+.service h2{
+    color: #282C35;
+    margin-top: 5px;
+}
+
+.product{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.products{
+   font-family: Arial, Helvetica, sans-serif;
+   margin-bottom: 30px;
+}
+
+.products h2{
+    color: black;
+    margin-top: 20px;
+}
+
+.products h2:hover{
+    text-decoration: none;
+    background-color: #474e5d;
+    color: white;
+    width: 70%;
+}
+
+.clients{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.container-1 {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 10px;
+}
+    
+.container-1::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+   
+.container-1 img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 90px;
+}
+   
+.container-1 span {
+    font-size: 20px;
+    margin-right: 15px;
+}
+  
+.our{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team{
+    background-color: #F8F8F8;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.team a{
+    padding-left:10px; 
+    color: #474e5d;
+}
+
+.team a:hover{
+    color: #0073AA;
+}
+
+.team-1{
+    box-shadow: 2px 2px 5px #888888;
+    padding: 20px;  
+}
+  
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+  
+.button:hover {
+    background-color: #555;
+}
+
+footer{
+    background-color: #282C35;
+    padding: 20px;
+    color: darkgray;
+}
+
+footer ul{
+   padding-left: 0;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+footer ul li a{
+    color: darkgray;
+    padding-left: 0; 
+}
+
+footer ul li a:hover{
+    text-decoration: none;
+    color: darkgray;
+}
+
+footer a{
+    padding: 10px;
+    color: white;
+}
+
+footer a:hover{
+    color: white;
+}
+
+footer hr{
+    border-top: 1px solid darkgray;
+}
+
+.lastbar {
+    background-color: #0073AA;
+    padding:3px;
+    text-align: center;
+}
+
+.lastbar p{
+    color: white;
+    margin-bottom: 0;
+    padding: 10px 0;
+}
+
+.lastbar p a{
+    color: white;
+}
+
+.lastbar p a:hover{
+    text-decoration: none;
+    color:white;
+}
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 500px) {
+    .container-1 {
+      text-align: center;
+    }
+  
+    .container-1 img {
+      margin: auto;
+      float: none;
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .team-1{
+        box-shadow: 2px 2px 5px #888888;
+          padding: 20px;   
+         margin-bottom: 10px;
+          
+    }
+  }
+
+  @media screen and (max-width: 450px){
+    nav ul{
+        margin-left: 0px;
+    }
+  }
+
+  @media screen and (max-width: 450px){
+    .about img{
+        width: 300px;
+        border-radius: 30px; 
+    }
+    .about h1{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    
+  }
+
+  @media screen and (max-width: 450px){
+    .container-1 {
+        border: 2px solid #ccc;
+        background-color: #eee;
+        border-radius: 5px;
+        padding: 16px;
+        margin: 16px 20px;
+    }
+  }
+  
+
+  
